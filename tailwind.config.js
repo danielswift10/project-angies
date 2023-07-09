@@ -14,14 +14,11 @@ module.exports = {
         secondary: "#F9F9FA",
         veryDimBlue: "#8A89A0",
 
-        
-
-
-
-
       },
       fontFamily: {
-        poppins: ["Changa One", "PT Sans"],
+        changa: ["Changa One", "cursive"],
+        pt: ["PT Sans", "sans-serif"],
+        
       },
       fontWeight: {
         normal: 400,
