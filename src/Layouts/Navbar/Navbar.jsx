@@ -96,7 +96,7 @@ const Navbar = () => {
                 key={nav.id}
                 className={`cursor-pointer font-pt py-7  font-bold text-[16px] ${
                   active === nav.title
-                    ? "text-purple  pointer-events-none "
+                    ? "text-purple   pointer-events-none "
                     : "text-pale  hover:text-purple"
                 }
                                 ${
@@ -119,11 +119,11 @@ const Navbar = () => {
         </div>
         <div className={`md:flex ${styles.flexCenter} gap-[33px] hidden  `}>
             <div className="sign">
-                <Button type={"button"} title={"Sign In"} classname={`${'bg-transparent font-pt text-pale cursor-pointer px-2 text-[16px] md:text-[20px] lg:text-[24px] font-bold'} `}/>
+                <Button type={"button"} title={"Sign In"} classname={`${'hover:text-purple bg-transparent font-pt text-pale cursor-pointer px-2 text-[16px] md:text-[20px] lg:text-[24px] font-bold'} `}/>
 
             </div>
             <div className="join">
-            <Button type={"button"} title={"Join us"} classname={`${'bg-purple shadow- font-pt text-white cursor-pointer py-[8px]  px-[24px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold'} `}/>
+            <Button type={"button"} title={"Join us"} classname={`${'bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[8px]  px-[24px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold'} `}/>
             </div>
           </div>
         <div className="md:hidden ">
