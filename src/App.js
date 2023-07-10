@@ -1,6 +1,6 @@
 // import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import { Footer, Navbar } from "./Layouts";
+import {  Navbar } from "./Layouts";
 import {
   Home
 } from "./Pages"
@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div className="App" onContextMenu={handleContextMenu}>
       <BrowserRouter>
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
             <Route path="/" element={<Home title="Angies | Home" />} />
 
