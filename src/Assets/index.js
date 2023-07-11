@@ -20,10 +20,10 @@ import bgLg from "./images/bg-lg.png"
 import brand from "./images/brand.png"
 import dywan from "./images/dywan.png"
 import felix from "./images/felix.png"
-import introImage from "./images/intro-image-mb.png"
+import introImage from "./images/intro-image-mb.svg"
 import paris from "./images/paris.png"
-import collaborateLg from "./images/collaborate-lg.png"
-import collaborateMb from "./images/collaborate-mb.png"
+import collaborateLg from "./images/collaborate-lg.svg"
+import collaborateMb from "./images/collaborate-mb.svg"
 
 
 export {

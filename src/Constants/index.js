@@ -1,4 +1,4 @@
-import { collaborative, entertain, flexibility, personalized } from "../Assets";
+import { brand, collaborative, dywan, entertain, felix, flexibility, personalized, quote1, quote2, quote3 } from "../Assets";
 
 const NavLinks = [
     {
@@ -55,7 +55,34 @@ const NavLinks = [
     },
   ]
 
+  const Feedback = [
+    {
+      id: 1,
+      avatar: dywan,
+      name: "Dywan Malcom",
+      country: "Ireland",
+      content: "Study at their own pace and on their own schedule, which is ideal for those who have work, family, or other commitments",
+      quote: quote1,
+    },
+    {
+      id: 2,
+      avatar: brand,
+      name: "Brand Smith",
+      country: "Chicago",
+      content: "Study at their own pace and on their own schedule, which is ideal for those who have work, family, or other commitments",
+      quote: quote2,
+    },
+    {
+      id: 3,
+      avatar: felix,
+      name: "Felix Ogini",
+      country: "Amsterdam",
+      content: "Study at their own pace and on their own schedule, which is ideal for those who have work, family, or other commitments",
+      quote: quote3,
+    }
+
+  ]
 
   export {
-    NavLinks, Features,
+    NavLinks, Features, Feedback,
   }
