@@ -70,7 +70,7 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        scrolled ? "bg-darkBlue border-b border-b-gray" : "bg-darkBlue"
+        scrolled ? "bg-white border-b border-b-gray" : "bg-white"
       } w-full mx-auto fixed top-0 z-20 md:px-16 `}
     >
       <div
@@ -85,16 +85,16 @@ const Navbar = () => {
             <img
               src={logo}
               alt="angies"
-              className="w-[118px] object-contain md:w-[120px] lg:w-[168px] cursor-pointer "
+              className="w-[118px] object-contain md:w-[100px] xl:w-[168px] lg:w-[150px] cursor-pointer "
             />
           </Link>
         </div>
         <div className="navbar-links-desk  md:flex md:flex-row hidden md:justify-between  md:items-center">
-          <ul className="flex gap-12 md">
+          <ul className="flex gap-12 md:gap-10">
             {NavLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`cursor-pointer font-pt py-7  font-bold text-[16px] ${
+                className={`relative cursor-pointer font-pt py-7  font-bold text-[16px] ${
                   active === nav.title
                     ? "text-purple   pointer-events-none "
                     : "text-pale  hover:text-purple"
@@ -102,7 +102,7 @@ const Navbar = () => {
                                 ${
                                   index === NavLinks.length
                                     ? "mr-0"
-                                    : " text-[15px] hover:font-bold hover:text-white md:text-[20px] lg:text-[24px] lg:leading-[24px]   "
+                                    : " text-[15px] font-bold    md:text-[18px] lg:text-[22px] xl:text-[24px] lg:leading-[24px]   "
                                 }`}
                 onClick={() => {
                   setActive(nav.title);
@@ -112,18 +112,20 @@ const Navbar = () => {
                 <NavLink to={`${nav.to}`} className="">
                   {nav.title}
                 </NavLink>
+                <div className="flex items-center border w-full hidden hover:flex justify-center"><div className="absolute w-[4px] h-[4px] bg-pink bottom-5  rounded-full "/></div>
               </li>
+              
             ))}
           </ul>
          
         </div>
         <div className={`md:flex ${styles.flexCenter} gap-[33px] hidden  `}>
             <div className="sign">
-                <Button type={"button"} title={"Sign In"} classname={`${'hover:text-purple bg-transparent font-pt text-pale cursor-pointer px-2 text-[16px] md:text-[20px] lg:text-[24px] font-bold'} `}/>
+                <Button type={"button"} title={"Sign In"} classname={`${'hover:text-purple bg-transparent font-pt text-pale cursor-pointer px-2 text-[16px] md:text-[18px] xl:text-[24px] lg:text-[22px] font-bold'} `}/>
 
             </div>
             <div className="join">
-            <Button type={"button"} title={"Join us"} classname={`${'bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[8px]  px-[24px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold'} `}/>
+            <Button type={"button"} title={"Join us"} classname={`${styles.image} ${'bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[8px]  px-[24px] rounded-[8px] lg:text-[22px] xl:text-[24px]  md:text-[20px] text-[16px]  font-bold'} `}/>
             </div>
           </div>
         <div className="md:hidden ">

@@ -2,6 +2,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {  Navbar } from "./Layouts";
 import {
+  About,
+  Blog,
+  Contact,
+  Courses,
   Home
 } from "./Pages"
 // import { Blog, Contact, PrivacyPolicy } from "./Pages";
@@ -26,7 +30,11 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-            <Route path="/" element={<Home title="Angies | Home" />} />
+            <Route path="/" element={<Home title="Angies" />} />
+            <Route path="/about" element={<About title="Angies | About" />} />
+            <Route path="/courses" element={<Courses title="Angies | Courses" />} />
+            <Route path="/blog" element={<Blog title="Angies | Blog" />} />
+            <Route path="/contact" element={<Contact title="Angies | Contact" />} />
 
 
           </Routes>
