@@ -4,6 +4,7 @@ import Testimonials from "./Testimonials"
 import Chats from "./Chats"
 import BlogPost from "./BlogPost"
 import GetStarted from "./GetStarted"
+import ScrollToTop from "../ScrollToTop"
 
 
 export {
@@ -13,4 +14,5 @@ export {
     Chats,
     BlogPost,
     GetStarted,
+    ScrollToTop,
 }

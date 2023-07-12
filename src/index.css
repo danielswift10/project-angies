@@ -5,3 +5,31 @@
 @tailwind utilities;
 
 
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body{
+    background-color: #F9F9FA;
+  }
+
+.started{
+    background-image: url("./Assets/images/bg-mb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media screen and (min-width: 620px) {
+    .started{
+        background-image: url("./Assets/images/bg-lg.png");   
+        background-size: cover;
+        background-position: center center;
+    }
+}

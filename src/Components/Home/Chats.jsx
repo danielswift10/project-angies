@@ -29,7 +29,7 @@ const Chats = () => {
               </div>
             </div>
           </div>
-          <div className="global md:hidden shadow-card rounded-[24px] w-fit md:w-full  bg-white p-[16px] mt-10 mb-4">
+          <div className="global md:hidden shadow-card rounded-[24px] w-full md:w-full  bg-white p-[16px] mt-10 mb-4">
             <div className={`${styles.flexCenter} w-fit  gap-[14px]`}>
               <div className="icon">
                 <img src={earth} alt="" className="w-[65px] xs:w-[48px]" />

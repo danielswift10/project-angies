@@ -12,6 +12,7 @@ import quote2 from "./icons/quote-2.png"
 import quote3 from "./icons/quote-3.png"
 import reward from "./icons/reward.svg"
 import collaborative from "./icons/collaborative.svg"
+import arrowUp from "./icons/arrow-up.png"
 
 
 //IMAGES
@@ -27,6 +28,7 @@ import collaborateMb from "./images/collaborate-mb.svg"
 
 
 export {
+    arrowUp,
     arrowRight,
     earth,
     entertain,

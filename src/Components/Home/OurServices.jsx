@@ -3,7 +3,7 @@ import styles from "../../style";
 
 const OurServices = () => {
     return ( 
-        <div className="bg-secondary py-[100px]">
+        <div className="bg-white py-[100px]">
             <div className={`${styles.boxWidth} ${styles.padding}`}>
             <div className="heading text-center mb-12 sm:mb-20">
                 <h4 className={`${styles.heading4} mb-5 text-pink`}>Our Services</h4>
@@ -12,7 +12,7 @@ const OurServices = () => {
             <div className="cards flex flex-wrap items-center  gap-[20px]   lg:gap-[24px]">
                 {
                     Features.map((feature, index)=>(
-                        <div className={`rounded-[24px] bg-white shadow-card   w-[258px] ss:w-[299px] sm:w-[224px]  md:w-[250px] lg:w-[250px] xlg:w-[270px] xl:w-[302px] mx-auto text-center bg-white  py-[37px] px-6 lg:px-8 md:py-[48px] ${styles.image}`}>
+                        <div className={`rounded-[24px] bg-white shadow-card   w-[268px] ss:w-[299px] sm:w-[224px]  md:w-[250px] lg:w-[250px] xlg:w-[270px] xl:w-[302px] mx-auto text-center bg-white  py-[37px] px-6 lg:px-8 md:py-[48px] ${styles.image}`}>
                             <div className="flex items-center flex-col">
                                 <img src={feature.image} alt="" className="w-[48px] xl:w-[81px] md:w-[60px] mb-[20px]" />
                                 <div className="">

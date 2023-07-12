@@ -1,6 +1,6 @@
 // import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {  Navbar } from "./Layouts";
+import {  Footer, Navbar } from "./Layouts";
 import {
   About,
   Blog,
@@ -8,6 +8,7 @@ import {
   Courses,
   Home
 } from "./Pages"
+import ScrollToTop from "./Components/ScrollToTop";
 // import { Blog, Contact, PrivacyPolicy } from "./Pages";
 // import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 // import { TrendingBlog1 } from "./Components/Blog";
@@ -36,10 +37,9 @@ const App = () => {
             <Route path="/blog" element={<Blog title="Angies | Blog" />} />
             <Route path="/contact" element={<Contact title="Angies | Contact" />} />
 
-
           </Routes>
-        {/* <Footer /> */}
-        {/* <ScrollToTop /> */}
+        <Footer />
+        <ScrollToTop />
       </BrowserRouter>
     </div>
   );

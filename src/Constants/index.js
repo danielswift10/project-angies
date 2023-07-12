@@ -83,6 +83,24 @@ const NavLinks = [
 
   ]
 
+  const FooterLinks = [
+    {
+      id: 1,
+      to: "/about",
+      text: "About",
+    },
+    {
+      id: 2,
+      to: "/courses",
+      text: "Courses",
+    },
+    {
+      id: 3,
+      to: "/",
+      text: "Career",
+    },
+  ];
+
   export {
-    NavLinks, Features, Feedback,
+    NavLinks, Features, Feedback, FooterLinks,
   }

@@ -74,7 +74,11 @@ const Navbar = () => {
       } w-full mx-auto fixed top-0 z-20 md:px-16 `}
     >
       <div
-        className={`bg-white py-7 lg:py-3  md:p-0 ${styles.flexBetween} ${styles.paddingX} ${styles.boxWidth}`}
+        className={`bg-white py-7   md:p-0 ${styles.flexBetween} ${styles.paddingX} ${styles.boxWidth}
+        ${
+          scrolled ? "lg:py-3" 
+          : "lg:py-5"
+        }`}
       >
         <div className="nav-logo ">
           <Link
@@ -112,7 +116,11 @@ const Navbar = () => {
                 <NavLink to={`${nav.to}`} className="">
                   {nav.title}
                 </NavLink>
-                <div className="flex items-center border w-full hidden hover:flex justify-center"><div className="absolute w-[4px] h-[4px] bg-pink bottom-5  rounded-full "/></div>
+                {
+                  active === nav.title 
+                  ? <div className="flex items-center w-full justify-center"><div className="absolute w-[5px] h-[5px] bg-pink bottom-4  rounded-full "/></div>
+                  :""
+                }
               </li>
               
             ))}

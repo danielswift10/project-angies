@@ -1,14 +1,14 @@
 const styles  = {
     boxWidth: "xl:max-w-[1280px] w-full  mx-auto",
 
-    heading1: "font-changa font-normal w-full xl:text-[79px] lg:text-[70px] text-[44px] leading-[46px] tracking-[-1.32px] xl:tracking-[-2.37px]  lg:leading-[68px] xl:leading-[74px] md:w-[400px] lg:w-[490px] xl:w-[519px]  ",
+    heading1: "font-changa font-normal w-full xl:text-[79px] lg:text-[70px] text-[44px] leading-[50px] tracking-[-1.32px] xl:tracking-[-2.37px]  lg:leading-[70px] xl:leading-[80px] md:w-[400px] lg:w-[490px] xl:w-[519px]  ",
     heading2: "font-changa font-normal w-full font-normal sm:text-[58px] md:text-[60px]  text-black lg:text-[72px] lg:leading-[74px] xl:tracking-[-2.16px] ",
     heading3: "",
     heading4: "font-pt font-bold leading-[32px] md:text-[20px] text-[14px] sm:text-[18px] ",
 
     paragraph: "font-pt font-normal text-[16px] leading-[28px] lg:text-[18px] lg:leading-[28px] xl:text-[20px] xl:leading-[32px]",
     paragraph1: "font-pt font-bold text-[20px] text-black",
-    paragraph2: "font-pt font-normal text-[16px] ",
+    paragraph2: "font-pt text-[16px] ",
     paragraph3: "font-pt font-normal text-[14px] ",
     sub: "font-pt text-[14px] font-normal text-veryDimBlue leading-[18px] sm:text-[15px]  lg:leading-[24px] xl:text-[16px] ",
 
@@ -16,13 +16,10 @@ const styles  = {
     
     link: "font-bold font-pt text-[24px] ",
     
-    paragraphSmall: "font-poppins font-semibold text-[14px] xl:leading-[20px]",
-    paragraphLarge: "font-poppins font-semibold text-[18px]  xl:leading-[28px]",
 
 
 
-    textLink: "font-poppins font-semibold text-[16px] leading-[24px]",
-    caption: "font-poppins font-semibold text-[14px] leading-[20px] text-secondary tracking-[3px]",
+    textLink: "font-pt text-black font-bold text-[20px] ",
 
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
