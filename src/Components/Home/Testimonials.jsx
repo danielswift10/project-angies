@@ -1,3 +1,4 @@
+import { Feedback } from "../../Constants";
 import styles, { layout } from "../../style";
 
 const Testimonials = () => {
@@ -9,8 +10,30 @@ const Testimonials = () => {
                 <h2 className={`${styles.heading2} text-[36px] leading-[36px] tracking-[-0.96px]`}>What  People  thinks about us</h2>
             </div>
 
-            <div className="feedback">
-                
+            <div className="feedback flex flex-wrap ">
+                {
+                    Feedback.map((testimonial, index) => (
+                        <div className="flex flex-col gap-10">
+                            <div className={`${styles.flexCenter}`}>
+                                <div className="avatar">
+                                    <img src={testimonial.avatar} alt="" />
+                                </div>
+                                <div className="title">
+                                    <p>
+                                        <span>{testimonial.name}</span>
+                                        <span>{testimonial.country}</span>
+                                    </p>
+                                </div>
+                                <div className="quote">
+                                    <img src={testimonial.quote} alt="" />
+                                </div>
+                            </div>
+                            <div className="content">
+                                {testimonial.content}
+                            </div>
+                            </div>
+                    ))
+                }
             </div>
             </div>
             
