@@ -1,5 +1,3 @@
-import { collaborateLg, collaborateMb, earth, mission } from "../../Assets";
-import { Button } from "../../Utils";
 import styles, { layout } from "../../style";
 
 const Mission1 = () => {
