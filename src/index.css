@@ -33,3 +33,8 @@
         background-position: center center;
     }
 }
+
+
+.line{
+  transform: perspective(1200px) rotate(10deg)
+}
