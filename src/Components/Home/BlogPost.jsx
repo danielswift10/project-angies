@@ -22,7 +22,7 @@ const BlogPost = () => {
         >
           <div className="image  ">
             <div className="relative rounded-[34px] overflow-hidden">
-            <img src={paris} alt="" className={` ${styles.image} ss:w-[590px]  lg:w-full`} />
+            <img src={paris} alt="" className={` ss:w-[590px]  lg:w-full`} />
             </div>
           </div>
           <div className="content ">

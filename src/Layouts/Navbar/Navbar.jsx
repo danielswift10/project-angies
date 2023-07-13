@@ -71,10 +71,10 @@ const Navbar = () => {
     <nav
       className={`${
         scrolled ? "bg-white border-b border-b-gray" : "bg-white"
-      } w-full mx-auto fixed top-0 z-20 md:px-16 `}
+      } w-full mx-auto fixed  top-0 z-20 md:px-16 ${styles.paddingX}  `}
     >
       <div
-        className={`bg-white py-7   md:p-0 ${styles.flexBetween} ${styles.paddingX} ${styles.boxWidth}
+        className={`bg-white py-7   md:p-0 ${styles.flexBetween}  ${styles.boxWidth}
         ${
           scrolled ? "lg:py-3" 
           : "lg:py-5"

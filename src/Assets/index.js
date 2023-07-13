@@ -21,13 +21,16 @@ import bgLg from "./images/bg-lg.png"
 import brand from "./images/brand.png"
 import dywan from "./images/dywan.png"
 import felix from "./images/felix.png"
-import introImage from "./images/intro-image-mb.svg"
+import introImage from "./images/intro-image-mb.png"
 import paris from "./images/paris.png"
-import collaborateLg from "./images/collaborate-lg.svg"
-import collaborateMb from "./images/collaborate-mb.svg"
+import collaborateLg from "./images/collaborate-lg.png"
+import collaborateMb from "./images/collaborate-mb.png"
+import mission from "./images/mission.png"
+import mission2 from "./images/mission2.png"
 
 
 export {
+    mission,
     arrowUp,
     arrowRight,
     earth,

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="bg-white">
       <div
-        className={`${styles.boxWidth}  mt-[40px] pb-28 md:pb-2 md:gap-5 md:pt-[60px] pt-16 ss:pt-[70px] sm:pt-[50px] ${styles.padding}`}
+        className={`${styles.boxWidth}  mt-[25px] pb-28 md:pb-2 md:gap-5 md:pt-[60px] pt-16 ss:pt-[70px] sm:pt-[50px] ${styles.padding}`}
       >
         <div
           className={`${layout.section} xlg:w-[1150px] xl:w-full xlg:justify-between mx-auto gap-10 md:gap-0 flex justify-center items-center md:justify-center xl:justify-between`}
@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
           </div>
           <div className={`hero-image relative z-10 `}>
-            <div className="relative overflow-hidden px-6 relative z-10">
+            <div className="relative overflow-hidden px-0 relative z-10">
               <img
                 src={introImage}
                 alt=""
