@@ -24,21 +24,21 @@ const FunFact = () => {
                 <h2 className={`font-changa text-bold text-[72px] lg:text-[90px] mb-[-10px]  xl:text-[128px] text-pink `}>12</h2>
                 <p className={`font-pt font-bold text-[16px] text-yellow xl:text-[32px] lg:text-[23px] `}> <span className="block mb-[-5px] ">Skilled </span> <span>Instructors</span> </p>
             </div>
-            <div className="xl:h-[163px] line left-[210px] rounded-[10px] bg-[#ffffff33] w-[8px] absolute top-10 " />
+            <div className="xl:h-[163px] line left-[210px] rounded-[10px] bg-[#ffffff33] w-[8px] absolute top-14 " />
             <div className="border">
                 <h2 className={`font-changa text-bold text-[72px] lg:text-[90px] mb-[-10px] xl:text-[128px] text-pink `}>14</h2>
                 <p className={`font-pt font-bold text-[16px] text-yellow xl:text-[32px] lg:text-[23px] `}> <span className="block mb-[-5px]">We Teach </span> <span>Languages</span> </p>
             </div>
             </div>
 
-            <div className="xl:h-[163px] line left-[500px] rounded-[10px] bg-[#ffffff33] w-[8px] absolute top-10 " />
+            <div className="xl:h-[163px] line left-[500px] rounded-[10px] bg-[#ffffff33] w-[8px] absolute top-14 " />
 
             <div className="flex flex-row relative justify-between  border lg:gap-[145px] xlg:gap-[170px] xl:gap-[125px] md:gap-[90px]">
             <div className="border">
                 <h2 className={`font-changa text-bold text-[72px] lg:text-[90px] mb-[-10px] xl:text-[128px] text-pink `}>63</h2>
                 <p className={`font-pt font-bold text-[16px] text-yellow xl:text-[32px] lg:text-[23px] `}> <span className="block mb-[-5px]">Current</span> <span>Students</span> </p>
             </div>
-            <div className="xl:h-[163px] line left-[210px] rounded-[10px] bg-[#ffffff33] w-[8px] absolute top-10 " />
+            <div className="xl:h-[163px] line left-[210px] rounded-[10px] bg-[#ffffff33] w-[8px] absolute top-14 " />
             <div className="border">
                 <h2 className={`font-changa text-bold text-[72px] lg:text-[90px] mb-[-10px] xl:text-[128px] text-pink  `}>213</h2>
                 <p className={`font-pt font-bold text-[16px] text-yellow xl:text-[32px] lg:text-[23px] `}> <span className="block mb-[-5px]">Happy</span> <span>Alumnus</span> </p>
