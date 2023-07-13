@@ -1,6 +1,5 @@
 import { useEffect } from "react";
-import styles from "../../style";
-import { Hero, Passion, Skilled } from "../../Components/About";
+import { FunFact, Hero, Passion, Skilled } from "../../Components/About";
 
 const About = (props) => {
   useEffect(() => {
@@ -11,7 +10,9 @@ const About = (props) => {
     <div>
       <Hero/>
       <Passion/>
+      <FunFact/>
       <Skilled/>
+      
     </div>
   );
 };
