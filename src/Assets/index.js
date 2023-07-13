@@ -30,6 +30,7 @@ import mission2 from "./images/mission2.png"
 
 
 export {
+    mission2,
     mission,
     arrowUp,
     arrowRight,
