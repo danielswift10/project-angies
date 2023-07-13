@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import styles from "../../style";
-import { Hero, Mission1 } from "../../Components/About";
+import { Hero, Passion } from "../../Components/About";
 
 const About = (props) => {
   useEffect(() => {
@@ -10,7 +10,7 @@ const About = (props) => {
   return (
     <div>
       <Hero/>
-      <Mission1/>
+      <Passion/>
     </div>
   );
 };

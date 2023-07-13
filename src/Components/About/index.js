@@ -1,9 +1,9 @@
 import Hero from "./Hero";
-import Mission1 from "./Mission1";
+import Passion from "./Passion";
 
 
 
 export {
     Hero,
-    Mission1,
+    Passion,
 }
