@@ -17,7 +17,7 @@ const FunFact = () => {
           >
             Fun Facts
           </h2>
-          <div className="number flex flex-wrap gap-20 justify-center items-center">
+          <div className="number flex flex-wrap gap-20 w-[80%] mx-auto justify-center items-center">
             <div>
                 <h2 className={`font-changa text-bold text-[72px] text-pink `}>12</h2>
                 <p className={`font-pt font-bold text-[16px] text-yellow `}> <span className="block">Skilled </span> <span>Instructors</span> </p>
