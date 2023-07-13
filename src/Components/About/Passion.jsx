@@ -1,6 +1,7 @@
+import { mission } from "../../Assets";
 import styles, { layout } from "../../style";
 
-const Mission1 = () => {
+const Passion = () => {
   return (
     <div className=" py-14">
       <div
@@ -36,4 +37,4 @@ const Mission1 = () => {
   );
 };
 
-export default Mission1;
+export default Passion;
