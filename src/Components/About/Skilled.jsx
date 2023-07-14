@@ -19,13 +19,13 @@ const Skilled = () => {
         >
           <h4 className={`${styles.heading4} mb-2  text-pink`}>Our Mission</h4>
           <h2
-            className={`${styles.heading2} text-[44px] xs:w-[]  ss:w-[550px] md:w-[420px] md:text-[53px] md:mb-7 lg:text-[65px] xl:text-[72px] lg:w-[550px] lg:leading-[64px]  xl:leading-[70px]  ss:text-[48px] mb-3 text-black leading-[46px] ss:leading-[56px]  tracking-[-1.32px] `}
+            className={`${styles.heading2} text-[44px] ss:w-[550px] md:w-[420px] md:text-[52px] md:mb-4 lg:text-[64px] xl:text-[74px] xl:w-[590px] lg:w-[550px] lg:leading-[63px]  xl:leading-[70px]  ss:text-[48px] mb-3 text-black leading-[46px] ss:leading-[56px]  tracking-[-1.32px] `}
           >
             We have a team of <span className="text-purple "> skilled </span>
             Language Instructors
           </h2>
           <p
-            className={`${styles.paragraph}  text-veryDimBlue md:w-[420px] text-[18px] xs:text-[18px] mb-6 xs:w-[460px] ss:w-[550px] lg:w-[550px] xl:w-[588px]`}
+            className={`${styles.paragraph}  text-veryDimBlue md:w-[420px] text-[18px] xs:text-[18px] mb-6 xs:w-[460px] ss:w-[550px] lg:w-[550px] xl:w-[638px]`}
           >
             We are passionate about what we do, and we believe that our love for
             languages is contagious. Join us on this journey to discover the
