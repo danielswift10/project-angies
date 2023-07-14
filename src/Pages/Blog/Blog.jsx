@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import styles from "../../style";
+import BlogComp from "../../Components/Blog/BlogComp";
 
 const Blog = (props) => {
   useEffect(() => {
@@ -8,7 +9,7 @@ const Blog = (props) => {
 
   return (
     <div>
-      
+      <BlogComp/>
     </div>
   );
 };
