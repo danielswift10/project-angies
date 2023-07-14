@@ -1,4 +1,4 @@
-import { brand, collaborative, dywan, entertain, felix, flexibility, personalized, quote1, quote2, quote3 } from "../Assets";
+import { africa, arabic, brand, collaborative, dutch, dywan, entertain, felix, finland, flexibility, french, german, korean, personalized, portugues, quote1, quote2, quote3 } from "../Assets";
 
 const NavLinks = [
     {
@@ -101,6 +101,49 @@ const NavLinks = [
     },
   ];
 
+  const Countries = [
+    {
+      id: 1,
+      name: "French",
+      image: french,
+    },
+    {
+      id: 2,
+      name: "German",
+      image: german,
+    },
+    {
+      id: 3,
+      name: "Korean",
+      image: korean,
+    },
+    {
+      id: 4,
+      name: "Africa",
+      image: africa,
+    },
+    {
+      id: 5,
+      name: "Arabic",
+      image: arabic,
+    },
+    {
+      id: 6,
+      name: "Finland",
+      image: finland,
+    },
+    {
+      id: 7,
+      name: "Portuges",
+      image: portugues,
+    },
+    {
+      id: 8,
+      name: "Dutch",
+      image: dutch,
+    },
+  ]
+
   export {
-    NavLinks, Features, Feedback, FooterLinks,
+    NavLinks, Features, Feedback, FooterLinks, Countries
   }

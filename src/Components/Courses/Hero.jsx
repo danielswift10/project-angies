@@ -32,7 +32,7 @@ const Hero = () => {
             </p>
 
             <div
-              className={`${styles.flexBetween} sm:justify-cneter mb-12 border w-full justify-center items-center sm:w-fit md:w-fit gap-[20px]`}
+              className={`${styles.flexBetween} sm:justify-cneter mb-20 mt-4 w-full justify-center items-center sm:w-fit md:w-fit gap-[20px]`}
             >
               <Button
                 type={"button"}
@@ -50,7 +50,7 @@ const Hero = () => {
               />
             </div>
             <div className={` ${styles.flexCenter} `}>
-            <img src={books} alt=""  className="rounded-[24px] w-full ss:w-[85%] smd:w-[80%] "/>
+            <img src={books} alt=""  className="rounded-[24px] w-full ss:w-[85%] smd:w-[80%] lg:w-full"/>
           </div>
           </div>
           

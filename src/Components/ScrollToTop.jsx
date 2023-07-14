@@ -40,9 +40,9 @@ const ScrollToTop = () => {
   return (
     <div>
         {displayArrow && (
-            <div className="flex gap-4 items-center p-3 fixed z-20 bottom-[40px] right-[25px] lg:right-[35px] z-10 bg-veryDimBlue shadow-scrollBtn rounded-full cursor-pointer" onClick={scrollUp} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+            <div className="flex gap-4 items-center p-2 fixed z-20 bottom-[40px] right-[25px] lg:right-[35px] z-10 bg-veryDimBlue shadow-scrollBtn rounded-full cursor-pointer" onClick={scrollUp} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                 <div className="text-white">
-                    <img src={arrowUp} alt="arrow" className="w-[30px]"/>
+                    <img src={arrowUp} alt="arrow" className="w-[27px]"/>
                 </div>
             </div>
         )}

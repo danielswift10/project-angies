@@ -13,6 +13,14 @@ import quote3 from "./icons/quote-3.png"
 import reward from "./icons/reward.svg"
 import collaborative from "./icons/collaborative.svg"
 import arrowUp from "./icons/arrow-up.png"
+import french from "./icons/french.png"
+import german from "./icons/german.png"
+import korean from "./icons/korean.png"
+import africa from "./icons/africa.png"
+import arabic from "./icons/arabic.png"
+import finland from "./icons/finland.png"
+import portugues from "./icons/Portuges.png"
+import dutch from "./icons/dutch.png"
 
 
 //IMAGES
@@ -35,6 +43,14 @@ import books from "./images/books.png"
 
 
 export {
+    french,
+    german,
+    korean,
+    africa,
+    arabic,
+    finland, 
+    portugues,
+    dutch,
     books,
     team1,
     team2,
