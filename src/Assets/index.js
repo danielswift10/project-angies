@@ -40,9 +40,15 @@ import team2 from "./images/team2.jpg"
 import team3 from "./images/team3.png"
 import team4 from "./images/team4.png"
 import books from "./images/books.png"
+import listening from "./images/listening.png"
+import reading from "./images/reading.png"
+import writing from "./images/writing.png"
 
 
 export {
+    listening,
+    reading,
+    writing,
     french,
     german,
     korean,
