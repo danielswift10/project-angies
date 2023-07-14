@@ -1,4 +1,4 @@
-import { africa, arabic, brand, collaborative, dutch, dywan, entertain, felix, finland, flexibility, french, german, korean, listening, paris, personalized, portugues, quote1, quote2, quote3, reading, writing } from "../Assets";
+import { africa, arabic, blog2, blog3, brand, collaborative, dutch, dywan, entertain, felix, finland, flexibility, french, german, korean, listening, paris, personalized, portugues, quote1, quote2, quote3, reading, writing } from "../Assets";
 
 const NavLinks = [
     {
@@ -187,16 +187,16 @@ const NavLinks = [
       title: "May 5, 2023",
       heading: "Language learning apps are a convenient and effective way to start",
       content: "Language learning apps are a convenient and effective way to improve your language skills. With a wide variety of apps available for different languages and skill levels, you can find...",
-      image: paris,
+      image: blog2,
     },
     {
       id: 3,
       title: "May 2, 2023",
       heading: "Communication starts with the basics",
       content: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
-      image: paris,
+      image: blog3,
     }
   ]
   export {
-    NavLinks, Features, Feedback, FooterLinks, Countries, InsightContent,
+    NavLinks, Features, Feedback, FooterLinks, Countries, InsightContent, BlogPost,
   }

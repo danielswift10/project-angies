@@ -43,9 +43,13 @@ import books from "./images/books.png"
 import listening from "./images/listening.png"
 import reading from "./images/reading.png"
 import writing from "./images/writing.png"
+import blog2 from "./images/blog2.png"
+import blog3 from "./images/blog3.png"
 
 
 export {
+    blog2,
+    blog3,
     listening,
     reading,
     writing,
