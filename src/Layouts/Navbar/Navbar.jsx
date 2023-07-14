@@ -71,13 +71,13 @@ const Navbar = () => {
     <nav
       className={`${
         scrolled ? "bg-white border-b border-b-gray" : "bg-white"
-      } w-full mx-auto fixed  top-0 z-20 md:px-16 ${styles.paddingX}  `}
+      } w-full mx-auto fixed  top-0 z-20 md:px-16  ${styles.paddingX}  `}
     >
       <div
-        className={`bg-white py-7   md:p-0 ${styles.flexBetween}  ${styles.boxWidth}
+        className={`bg-white  md:p-0 ${styles.flexBetween}  ${styles.boxWidth}
         ${
-          scrolled ? "lg:py-3" 
-          : "lg:py-5"
+          scrolled ? "md:py-0 py-[20px]" 
+          : "md:py-3 py-8"
         }`}
       >
         <div className="nav-logo ">
@@ -89,7 +89,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="angies"
-              className="w-[118px] object-contain md:w-[100px] xl:w-[168px] lg:w-[150px] cursor-pointer "
+              className="w-[118px] object-contain md:w-[] xl:w-[168px] lg:w-[150px] cursor-pointer "
             />
           </Link>
         </div>

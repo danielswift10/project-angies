@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { paris } from "../../Assets";
 import { Button } from "../../Utils";
 import styles, { layout } from "../../style";
@@ -56,6 +57,7 @@ const BlogPost = () => {
                   styles.image
                 } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px]  px-[] w-full sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
+              <NavLink to={"/blog"}>
               <Button
                 type={"button"}
                 title={"All Posts"}
@@ -63,6 +65,7 @@ const BlogPost = () => {
                   styles.image
                 } ${"bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[12px]  px-[] w-full sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
+              </NavLink>
             </div>
           </div>
         </div>

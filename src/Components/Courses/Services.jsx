@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="heading text-center mb-7 sm:mb-10">
                 <h4 className={`${styles.heading4} mb-5 text-pink`}>Our Services</h4>
                 <h2 className={`${styles.heading2} text-[36px] leading-[36px] tracking-[-0.96px]  `}>Our popular courses</h2>
-            </div>
+            </div>    
             <p
               className={`mb-2 sm:mb-7 ${styles.paragraph} text-[18px] text-center xs:w-[420px] ss:w-[500px] lg:w-[550px] xl:w-[628px] text-veryDimBlue`}
             >
@@ -27,10 +27,10 @@ const Hero = () => {
               language learning goals.
             </p>
           </div>
-          <div className="flex flex-wrap gap-y-[60px] my-0 md:my-10 items-center justify-between ss:gap-x-[20px] xl:w-[1280px] xlg:w-[1110px] xl:gap-x-[70px] smd:w-[780px] mx-auto  lg:w-[1000px] lg:gap-x-[10px] xlg:gap-x-[50px]   xl:gap-y-[40px] ">
+          <div className="flex flex-wrap xs:gap-x-[40px] gap-y-[60px] my-0 md:my-10 items-center justify-between ss:gap-x-[20px] xl:w-[1280px] xlg:w-[1110px] xl:gap-x-[70px] smd:w-[780px] mx-auto  lg:w-[1000px] lg:gap-x-[10px] xlg:gap-x-[50px]   xl:gap-y-[40px] ">
             {
                 Countries.map((country, index) => (
-                    <div className={`flex flex-row items-center py-[24px] px-[24px] lg:justify-start  w-[157px]  lg:w-[205px]  rounded-[16px] shadow cursor-pointer hover:shadow-card gap-4`} key={country.id}>
+                    <div className={`flex flex-row items-center py-[24px] px-[24px] lg:justify-start  w-[137px] xs:w-[157px]   lg:w-[205px]  rounded-[16px]  cursor-pointer shadow-card gap-4`} key={country.id}>
                         <img src={country.image} alt="" className="w-[24px] rounded-full lg:w-[40px] "/>
                     <h2 className="font-pt font-bold text-[18px] lg:text-[24px]  ">{country.name}</h2>
                     </div>

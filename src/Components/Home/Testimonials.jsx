@@ -19,7 +19,7 @@ const Testimonials = () => {
         <div className="feedback relative  w-full ">
           <div className="overflow-x-scroll lg:overflow-hidden pl-2 flex flex-row gap-5 pb-10">
             {Feedback.map((testimonial, index) => (
-              <div className={`flex flex-col gap-4  bg-white hover:shadow-card  shadow relative rounded-[24px]  py-[32px] lg:px-[40px] px-[24px]`}>
+              <div className={`flex flex-col gap-4  bg-white  shadow relative rounded-[24px]  py-[32px] lg:px-[40px] px-[24px]`}>
                 <div
                   className={`${styles.flexBetween}   w-[280px] lg:w-[266px] xlg:w-[248px]`}
                 >

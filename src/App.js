@@ -9,6 +9,7 @@ import {
   Home
 } from "./Pages"
 import ScrollToTop from "./Components/ScrollToTop";
+import { Blog1, Blog2, Blog3 } from "./Components/Blog";
 // import { Blog, Contact, PrivacyPolicy } from "./Pages";
 // import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 // import { TrendingBlog1 } from "./Components/Blog";
@@ -35,6 +36,9 @@ const App = () => {
             <Route path="/about" element={<About title="Angies | About" />} />
             <Route path="/courses" element={<Courses title="Angies | Courses" />} />
             <Route path="/blog" element={<Blog title="Angies | Blog" />} />
+            <Route path="/blog/learn-to-speak-write-french-like-a-local-in-3-weeks" element={<Blog1 title="Learn to speak & write french like a local in 3 weeks" />} />
+            <Route path="/blog/language-learning-apps-are-a-convenient-and-effective-way-to-start" element={<Blog2 title="Language learning apps are a convenient and effective way to start" />} />
+            <Route path="/blog/communication-starts-with-the-basics" element={<Blog3 title="Communication starts with the basics" />} />
             <Route path="/contact" element={<Contact title="Angies | Contact" />} />
 
           </Routes>

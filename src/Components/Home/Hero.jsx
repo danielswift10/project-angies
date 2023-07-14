@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { instructor, introImage, reward } from "../../Assets";
 import { Button } from "../../Utils";
 import styles, { layout } from "../../style";
@@ -37,6 +38,7 @@ const Hero = () => {
                   styles.image
                 } ${"bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[12px]  px-[] w-full sm:w-[150px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
+              <NavLink to={"/courses"}>
               <Button
                 type={"button"}
                 title={"Our Courses"}
@@ -44,6 +46,7 @@ const Hero = () => {
                   styles.image
                 } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px]  px-[] w-full sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
+              </NavLink>
             </div>
           </div>
           <div className={`hero-image relative z-10 `}>
@@ -66,7 +69,7 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <div className=" instructor hidden absolute bottom-[70px]  lg:flex lg:w-fit left-[15px] z-20 shadow rounded-[24px] md:w-full bg-white p-[16px]">
+              <div className=" instructor hidden absolute bottom-[100px]  lg:flex lg:w-fit left-[15px] z-20 shadow rounded-[24px] md:w-full bg-white p-[16px]">
                 <div className={`${styles.flexStart} w-fit  gap-[18px]`}>
                   <div className="icon">
                     <img src={instructor} alt="" />

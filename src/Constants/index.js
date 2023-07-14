@@ -180,21 +180,41 @@ const NavLinks = [
       title: "Apr 4, 2023",
       heading: "Learn to speak & write  French like a Local  in 3 Weeks",
       content: "Finding a language exchange partner is a great way to improve your language skills and gain confidence in speaking with a native speaker.",
+      fullContent: `
+      Finding a language exchange partner is a great way to improve your language skills and gain confidence in speaking with a native speaker. A language exchange partner is someone who speaks the language you are learning and wants to learn the language you speak. By practicing with a language exchange partner, you can improve your speaking skills and learn new vocabulary and expressions.\n
+      There are several ways to find a language exchange partner. You can search for language exchange groups online or through social media platforms like Facebook or Instagram. Many language schools also offer language exchange programs where you can practice speaking with other students.\n
+      When looking for a language exchange partner, it's important to find someone who is a good match for you. Look for someone who has similar language proficiency and interests. It's also a good idea to set clear goals and expectations for your language exchange sessions.
+      `,
       image: paris,
+      to: "/blog/learn-to-speak-write-french-like-a-local-in-3-weeks"
     },
     {
       id: 2,
       title: "May 5, 2023",
       heading: "Language learning apps are a convenient and effective way to start",
       content: "Language learning apps are a convenient and effective way to improve your language skills. With a wide variety of apps available for different languages and skill levels, you can find...",
+      fullContent: 
+      `
+      Language learning apps are a convenient and effective way to improve your language skills. With a wide variety of apps available for different languages and skill levels, you can find an app that meets your specific needs and preferences.\n
+      One of the benefits of language learning apps is that they are accessible and can be used on-the-go. You can practice your language skills anytime, anywhere, whether you have a few minutes during your daily commute or a longer study session at home.\n
+      Many language learning apps offer interactive lessons that are tailored to your skill level. These lessons may include vocabulary, grammar, and pronunciation exercises, as well as opportunities to practice speaking, listening, and reading. Some apps even use artificial intelligence to provide personalized feedback and adjust the difficulty level based on your progress.\n
+      Another advantage of language learning apps is that they often incorporate gamification elements to make learning more engaging and fun. For example, you may earn points or rewards for completing lessons or achieving certain milestones.`,
       image: blog2,
+      to: "/blog/language-learning-apps-are-a-convenient-and-effective-way-to-start"
     },
     {
       id: 3,
       title: "May 2, 2023",
       heading: "Communication starts with the basics",
       content: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+      fullContent:
+      `
+      One of the benefits of language learning apps is that they are accessible and can be used on-the-go. You can practice your language skills anytime, anywhere, whether you have a few minutes during your daily commute or a longer study session at home.\n
+      Many language learning apps offer interactive lessons that are tailored to your skill level. These lessons may include vocabulary, grammar, and pronunciation exercises, as well as opportunities to practice speaking, listening, and reading. Some apps even use artificial intelligence to provide personalized feedback and adjust the difficulty level based on your progress.\n
+      Another advantage of language learning apps is that they often incorporate gamification elements to make learning more engaging and fun. For example, you may earn points or rewards for completing lessons or achieving certain milestones.
+      `,
       image: blog3,
+      to: "/blog/communication-starts-with-the-basics"
     }
   ]
   export {
