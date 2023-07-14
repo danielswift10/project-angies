@@ -1,4 +1,4 @@
-import { africa, arabic, brand, collaborative, dutch, dywan, entertain, felix, finland, flexibility, french, german, korean, personalized, portugues, quote1, quote2, quote3 } from "../Assets";
+import { africa, arabic, brand, collaborative, dutch, dywan, entertain, felix, finland, flexibility, french, german, korean, listening, paris, personalized, portugues, quote1, quote2, quote3, reading, writing } from "../Assets";
 
 const NavLinks = [
     {
@@ -144,6 +144,59 @@ const NavLinks = [
     },
   ]
 
+  const InsightContent = [
+    {
+      id: 1,
+      title: "Listening",
+      heading1: "Get started with",
+      heading2: "understanding",
+      heading3: "a new language",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+      image: listening,
+    },
+    {
+      id: 2,
+      title: "Reading",
+      heading1: "Our team of experts will guide to",
+      heading2: "read",
+      heading3: ".",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+      image: reading,
+    },
+    {
+      id: 3,
+      title: "Writing",
+      heading1: "We will help you",
+      heading2: "speak",
+      heading3: "link a local in any language",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+      image: writing,
+    }
+  ]
+
+  const BlogPost = [
+    {
+      id: 1,
+      title: "Apr 4, 2023",
+      heading: "Learn to speak & write  French like a Local  in 3 Weeks",
+      content: "Finding a language exchange partner is a great way to improve your language skills and gain confidence in speaking with a native speaker.",
+      image: paris,
+    },
+    {
+      id: 2,
+      title: "May 5, 2023",
+      heading: "Language learning apps are a convenient and effective way to start",
+      content: "Language learning apps are a convenient and effective way to improve your language skills. With a wide variety of apps available for different languages and skill levels, you can find...",
+      image: paris,
+    },
+    {
+      id: 3,
+      title: "May 2, 2023",
+      heading: "Communication starts with the basics",
+      content: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+      image: paris,
+    }
+  ]
   export {
-    NavLinks, Features, Feedback, FooterLinks, Countries
+    NavLinks, Features, Feedback, FooterLinks, Countries, InsightContent,
   }

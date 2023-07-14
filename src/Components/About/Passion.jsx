@@ -5,7 +5,7 @@ const Passion = () => {
   return (
     <div className=" py-14">
       <div
-        className={`${styles.boxWidth} ${styles.flexBetween}  ss:px-0 ss:w-[600px] lg:w-[1070px] xlg:w-[1150px] xl:w-[1280px] lg:px-0  md:w-[970px] md:px-0 ${styles.padding} gap-10 ${layout.section1}`}
+        className={`${styles.boxWidth} ${styles.flexBetween}  ss:px-0 ss:w-[600px] lg:w-[1070px] xlg:w-[1150px] xl:w-[1280px] lg:px-0  md:w-[970px] md:px-0 ${styles.padding} gap-5 md:gap-10 ${layout.section1}`}
       >
 
         <div className={`content ${styles.flexCenter} flex-col md:items-start text-center  md:text-left`}>
