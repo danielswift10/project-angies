@@ -27,9 +27,19 @@ import collaborateLg from "./images/collaborate-lg.png"
 import collaborateMb from "./images/collaborate-mb.png"
 import mission from "./images/mission.png"
 import mission2 from "./images/mission2.png"
+import team1 from "./images/team1.png"
+import team2 from "./images/team2.jpg"
+import team3 from "./images/team3.png"
+import team4 from "./images/team4.png"
+import books from "./images/books.png"
 
 
 export {
+    books,
+    team1,
+    team2,
+    team3,
+    team4,
     mission2,
     mission,
     arrowUp,

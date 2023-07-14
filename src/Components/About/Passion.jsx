@@ -11,7 +11,7 @@ const Passion = () => {
         <div className={`content ${styles.flexCenter} flex-col md:items-start text-center  md:text-left`}>
           <h4 className={`${styles.heading4} mb-2  text-pink`}>Our Mission</h4>
           <h2
-            className={`${styles.heading2} text-[44px] xs:w-[]  ss:w-[550px] md:w-[420px] md:text-[53px] md:mb-7 lg:text-[65px] xl:text-[72px] lg:w-[550px] lg:leading-[64px]  xl:leading-[70px]  ss:text-[48px] mb-3 text-black leading-[46px] ss:leading-[56px]  tracking-[-1.32px] `}
+            className={`${styles.heading2} text-[44px] xs:w-[]  ss:w-[550px] md:w-[420px] md:text-[53px] md:mb-7 lg:text-[65px] xl:text-[78px] xl:w-[640px] lg:w-[550px] lg:leading-[64px]  xl:leading-[70px]  ss:text-[48px] mb-3 text-black leading-[46px] ss:leading-[56px]  tracking-[-1.32px] `}
           >
             Our Passion for <span className="text-purple ">Languages</span> is
             very contagious
@@ -30,7 +30,6 @@ const Passion = () => {
             alt=""
             className="mx-auto ss:w-[500px] xs:w-[440px] lg:w-[590px] "
           />
-          {/* <img src={collaborateLg} alt="" className="hidden md:flex w-[628px] " /> */}
         </div>
       </div>
     </div>

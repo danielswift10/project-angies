@@ -38,3 +38,35 @@
 .line{
   transform: perspective(1200px) rotate(10deg)
 }
+
+.pic{
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%)
+}
+
+.team1{
+  background-image: url("./Assets/images/team1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.team2{
+  background-image: url("./Assets/images/team2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.team3{
+  background-image: url("./Assets/images/team3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.team4{
+  background-image: url("./Assets/images/team4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
