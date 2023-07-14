@@ -4,7 +4,7 @@ import styles, { layout } from "../../style";
 
 const BlogPost = () => {
   return (
-    <div className="my-28">
+    <div className="my-22">
       <div
         className={`${styles.boxWidth}   flex-col   ${styles.flexCenter} ss:px-6 ${styles.padding} gap-10`}
       >

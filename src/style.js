@@ -28,9 +28,9 @@ const styles  = {
     flexEnd: "flex justify-end items-center",
     flexWrap: "flex flex-wrap justify-center",
 
-    paddingX: "sm:px-16 px-5 xl:px-0",
+    paddingX: "sm:px-14 px-5 xl:px-0",
     paddingY: "sm:py-16 py-6",
-    padding: "sm:px-15 md:px-[60px] px-5 xs:px-6 xl:px-0  sm:py-12  py-4",
+    padding: "sm:px-14 md:px-[60px] px-5 xs:px-6 xl:px-0  sm:py-12  py-4",
     padding2: "sm:px-16 px-7 xl:px-0 ",
 
     marginX: "sm:mx-16 mx-6",

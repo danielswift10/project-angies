@@ -5,7 +5,7 @@ import styles, { layout } from "../../style";
 
 const Hero = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-secondary">
       <div
         className={`${styles.boxWidth}  mt-[25px]  mb-[60px] lg:mb-[120px] md:pb-2 md:gap-5 ${styles.padding}`}
       >
@@ -27,10 +27,10 @@ const Hero = () => {
               language learning goals.
             </p>
           </div>
-          <div className="flex flex-wrap gap-y-[60px] my-0 md:my-10 items-center justify-between smd:w-[780px] mx-auto lg:w-[1000px] lg:gap-x-[120px] ">
+          <div className="flex flex-wrap gap-y-[60px] my-0 md:my-10 items-center justify-between ss:gap-x-[20px] xl:w-[1280px] xlg:w-[1110px] xl:gap-x-[70px] smd:w-[780px] mx-auto  lg:w-[1000px] lg:gap-x-[10px] xlg:gap-x-[50px]   xl:gap-y-[40px] ">
             {
                 Countries.map((country, index) => (
-                    <div className={`flex flex-row items-center justify-center w-[157px] gap-4`} key={country.id}>
+                    <div className={`flex flex-row items-center py-[24px] px-[24px] lg:justify-start  w-[157px]  lg:w-[205px]  rounded-[16px] shadow cursor-pointer hover:shadow-card gap-4`} key={country.id}>
                         <img src={country.image} alt="" className="w-[24px] rounded-full lg:w-[40px] "/>
                     <h2 className="font-pt font-bold text-[18px] lg:text-[24px]  ">{country.name}</h2>
                     </div>
