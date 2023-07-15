@@ -29,22 +29,24 @@ const Hero = () => {
               dedicated to helping you achieve your language goals.
             </p>
             <div
-              className={`${styles.flexBetween} sm:justify-start sm:w-[690px] md:w-fit gap-[20px]`}
+              className={` flex flex-row items-center justify-start w-full sm:w-[690px]  md:w-fit gap-[20px]`}
             >
+              <NavLink to={"/join-us"}>
               <Button
                 type={"button"}
                 title={"Join us"}
                 classname={`${
                   styles.image
-                } ${"bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[12px]  px-[] w-full sm:w-[150px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
+                } ${"bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[12px]  px-[45px] sm:px-0 sm:w-[157px] w-[] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
+              </NavLink>
               <NavLink to={"/courses"}>
               <Button
                 type={"button"}
                 title={"Our Courses"}
                 classname={`${
                   styles.image
-                } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px]  px-[] w-full sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
+                } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px]  px-[32px] sm:px-0 sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
               </NavLink>
             </div>
@@ -56,10 +58,10 @@ const Hero = () => {
                 alt=""
                 className={`w-[408.409px]  ss:w-[500px] lg:w-[560px] md:w-[428.409px] xl:w-[681px]`}
               />
-              <div className="earn hidden lg:flex absolute top-[320px] xl:top-[380px]  right-[-11px] shadow rounded-[24px] md:w-full lg:w-fit  bg-white p-[16px] mb-4">
-                <div className={`${styles.flexStart} w-fit  gap-[18px]`}>
+              <div className="earn hidden lg:flex absolute top-[320px] xl:top-[380px]  right-[-11px] shadow rounded-[24px] md:w-full lg:w-fit  bg-white xl:p-[16px] py-[13px] px-[16px] mb-4">
+                <div className={`${styles.flexStart} lg:items-center w-fit  gap-[18px]`}>
                   <div className="icon">
-                    <img src={reward} alt="" />
+                    <img src={reward} alt=""  className="w-[40px] xl:w-fit"/>
                   </div>
                   <div className="content">
                     <h2 className={`${styles.paragraph1}`}>Earn rewards</h2>
@@ -69,10 +71,10 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <div className=" instructor hidden absolute bottom-[100px]  lg:flex lg:w-fit left-[15px] z-20 shadow rounded-[24px] md:w-full bg-white p-[16px]">
-                <div className={`${styles.flexStart} w-fit  gap-[18px]`}>
+              <div className=" instructor hidden absolute bottom-[60px] xl:bottom-[100px]   lg:flex lg:w-fit left-[15px] z-20 shadow rounded-[24px] md:w-full xl:p-[16px] bg-white py-[13px] px-[16px]">
+                <div className={`${styles.flexStart} lg:items-center w-fit  gap-[18px]`}>
                   <div className="icon">
-                    <img src={instructor} alt="" />
+                    <img src={instructor} alt="" className="w-[40px] xl:w-fit " />
                   </div>
                   <div className="content">
                     <h2 className={`${styles.paragraph1}`}>

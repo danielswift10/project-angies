@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="bg-white">
       <div
-        className={`${styles.boxWidth}  mt-[25px]  md:pb-2 md:gap-5 md:pt-[100px] pt-16 ss:pt-[70px] sm:pt-[50px] ${styles.padding}`}
+        className={`${styles.boxWidth}  mt-[35px]  md:pb-2 md:gap-5 md:pt-[100px] pt-16 ss:pt-[70px] sm:pt-[50px] ${styles.padding}`}
       >
         <div
           className={`${layout.section} text-center xlg:w-[1150px] xl:w-full mx-auto gap-10 md:gap-0 flex justify-center items-center`}

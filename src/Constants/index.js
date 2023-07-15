@@ -96,7 +96,7 @@ const NavLinks = [
     },
     {
       id: 3,
-      to: "/",
+      to: "/career",
       text: "Career",
     },
   ];

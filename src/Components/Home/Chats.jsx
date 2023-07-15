@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { collaborateLg, collaborateMb, earth } from "../../Assets";
 import { Button } from "../../Utils";
 import styles, { layout } from "../../style";
@@ -62,6 +63,7 @@ const Chats = () => {
             qualified instructors, who are passionate about teaching and
             dedicated to helping you achieve your language goals.{" "}
           </p>
+          <NavLink to={"/join-us"}>
           <Button
             type={"button"}
             title={"Join us"}
@@ -69,6 +71,7 @@ const Chats = () => {
               styles.image
             } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px] w-[159px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px] xs:text-[18px]  font-bold"} `}
           />
+          </NavLink>
         </div>
       </div>
     </div>

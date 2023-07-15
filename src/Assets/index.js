@@ -21,6 +21,7 @@ import arabic from "./icons/arabic.png"
 import finland from "./icons/finland.png"
 import portugues from "./icons/Portuges.png"
 import dutch from "./icons/dutch.png"
+import close from "./icons/close.svg"
 
 
 //IMAGES
@@ -48,6 +49,7 @@ import blog3 from "./images/blog3.png"
 
 
 export {
+    close,
     blog2,
     blog3,
     listening,

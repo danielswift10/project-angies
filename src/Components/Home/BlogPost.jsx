@@ -48,22 +48,24 @@ const BlogPost = () => {
             </p>
 
             <div
-              className={`${styles.flexBetween}   sm:justify-start sm:w-fit gap-[20px]`}
+              className={` flex flex-row items-center justify-start w-full sm:w-[690px]  md:w-fit gap-[20px]`}
             >
+              <NavLink to={"/blog/learn-to-speak-write-french-like-a-local-in-3-weeks"}>
               <Button
                 type={"button"}
                 title={"Read More"}
                 classname={`${
                   styles.image
-                } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px]  px-[] w-full sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
+                } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px]  px-[36px] sm:px-0 sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
+              </NavLink>
               <NavLink to={"/blog"}>
               <Button
                 type={"button"}
                 title={"All Posts"}
                 classname={`${
                   styles.image
-                } ${"bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[12px]  px-[] w-full sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
+                } ${"bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[12px]  px-[40px] sm:px-0 sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
               </NavLink>
             </div>

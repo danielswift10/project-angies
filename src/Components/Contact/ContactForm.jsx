@@ -4,7 +4,7 @@ import styles, { layout } from "../../style";
 
 const ContactForm = () => {
   return (
-    <div className="bg-purple">
+    <div className="bg-purple py-20 md:py-0 mb-20 ">
       <div
         className={`${styles.boxWidth} md:gap-5 md:py-[100px] py-16 ss:py-[70px] sm:py-[50px] ${styles.padding}`}
       >

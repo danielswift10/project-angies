@@ -6,67 +6,76 @@
 
 
 * {
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-  }
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
 
-  body{
-    background-color: #F9F9FA;
-  }
+body {
+  background-color: #F9F9FA;
+}
 
-.started{
-    background-image: url("./Assets/images/bg-mb.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+
+.started {
+  background-image: url("./Assets/images/bg-mb.png");
 }
 
 @media screen and (min-width: 620px) {
-    .started{
-        background-image: url("./Assets/images/bg-lg.png");   
-        background-size: cover;
-        background-position: center center;
-    }
+  .started {
+    background-image: url("./Assets/images/bg-lg.png");
+  }
 }
 
 
-.line{
+.line {
   transform: perspective(1200px) rotate(10deg)
 }
 
-.pic{
+.pic {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%)
 }
 
-.team1{
+.team1 {
   background-image: url("./Assets/images/team1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
-.team2{
+.team2 {
   background-image: url("./Assets/images/team2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
-.team3{
+.team3 {
   background-image: url("./Assets/images/team3.png");
+}
+
+.team4 {
+  background-image: url("./Assets/images/team4.png");
+}
+
+.started, .team1, .team2, .team3, .team4, .blog-2, .blog-3 {
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.team1, .team2, .team3, .started, .team4 {
   background-position: center center;
 }
 
-.team4{
-  background-image: url("./Assets/images/team4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+.blog-2 {
+  background-image: url("./Assets/images/blog2.png");
+  background-position: top center;
+}
+
+.blog-3 {
+  background-image: url("./Assets/images/blog3.png");
+  background-position: top center;
+}
+
+@media screen and (min-width: 960px) {
+  .blog2, .blog-3 {
+    background-position: top -100px center;
+  }
 }

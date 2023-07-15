@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { books, instructor, introImage, reward } from "../../Assets";
 import { Button } from "../../Utils";
 import styles, { layout } from "../../style";
@@ -32,22 +33,26 @@ const Hero = () => {
             </p>
 
             <div
-              className={`${styles.flexBetween} sm:justify-cneter mb-20 mt-4 w-full justify-center items-center sm:w-fit md:w-fit gap-[20px]`}
+              className={` flex flex-row items-center mb-20 mt-4 justify-center w-full sm:w-[690px]  md:w-fit gap-[20px]`}
             >
+              <NavLink to={"/join-us"}>
               <Button
                 type={"button"}
                 title={"Join us"}
                 classname={`${
                   styles.image
-                } ${"bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[12px]  w-full sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
+                } ${"bg-purple shadow-purpleBtn font-pt text-white cursor-pointer py-[12px]  px-[48px] sm:px-0 sm:w-[157px] w-[] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
+              </NavLink>
+              <NavLink to={"/courses"}>
               <Button
                 type={"button"}
                 title={"Our Courses"}
                 classname={`${
                   styles.image
-                } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px]  w-full sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
+                } ${"bg-yellow shadow-yellowBtn font-pt text-white cursor-pointer py-[12px]  px-[32px] sm:px-0 sm:w-[180px] rounded-[8px] lg:text-[24px]  md:text-[20px] text-[16px]  font-bold"} `}
               />
+              </NavLink>
             </div>
             <div className={` ${styles.flexCenter} `}>
             <img src={books} alt=""  className="rounded-[24px] w-full ss:w-[85%] smd:w-[80%] lg:w-full"/>

@@ -4,9 +4,13 @@ import {  Footer, Navbar } from "./Layouts";
 import {
   About,
   Blog,
+  Career,
   Contact,
   Courses,
-  Home
+  ErrorPage,
+  Home,
+  Register,
+  SignIn
 } from "./Pages"
 import ScrollToTop from "./Components/ScrollToTop";
 import { Blog1, Blog2, Blog3 } from "./Components/Blog";
@@ -33,6 +37,7 @@ const App = () => {
         <Navbar />
         <Routes>
             <Route path="/" element={<Home title="Angies" />} />
+            <Route path="*" element={<ErrorPage title="Angies" />} />
             <Route path="/about" element={<About title="Angies | About" />} />
             <Route path="/courses" element={<Courses title="Angies | Courses" />} />
             <Route path="/blog" element={<Blog title="Angies | Blog" />} />
@@ -40,6 +45,10 @@ const App = () => {
             <Route path="/blog/language-learning-apps-are-a-convenient-and-effective-way-to-start" element={<Blog2 title="Language learning apps are a convenient and effective way to start" />} />
             <Route path="/blog/communication-starts-with-the-basics" element={<Blog3 title="Communication starts with the basics" />} />
             <Route path="/contact" element={<Contact title="Angies | Contact" />} />
+            <Route path="/sign-in" element={<SignIn title="Angies | Sign In" />} />
+            <Route path="/join-us" element={<SignIn title="Angies | Join Us" />} />
+            <Route path="/register" element={<Register title="Angies | Register" />} />
+            <Route path="/career" element={<Career title="Angies | Career" />} />
 
           </Routes>
         <Footer />
