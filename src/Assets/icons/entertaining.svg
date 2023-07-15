@@ -1,11 +1,1 @@
-<svg width="82" height="81" viewBox="0 0 82 81" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="41" cy="40.5" r="40.5" fill="#D23C8F"/>
-<circle cx="41" cy="40.5" r="40.5" fill="url(#paint0_linear_605_164)" fill-opacity="0.2"/>
-<path d="M60 30.316H40.344L45.204 24.232L42.396 22L36.6 29.254L30.804 22.054L27.996 24.232L32.856 30.316H24V59.116H60V30.316ZM45.6 55.516H27.6V33.916H45.6V55.516ZM54.6 48.316H51V44.716H54.6V48.316ZM54.6 41.116H51V37.516H54.6V41.116Z" fill="white"/>
-<defs>
-<linearGradient id="paint0_linear_605_164" x1="41" y1="21.5" x2="41" y2="101.5" gradientUnits="userSpaceOnUse">
-<stop stop-opacity="0"/>
-<stop offset="1"/>
-</linearGradient>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="81" fill="none" xmlns:v="https://vecta.io/nano"><circle cx="41" cy="40.5" r="40.5" fill="#d23c8f"/><circle cx="41" cy="40.5" r="40.5" fill="url(#A)" fill-opacity=".2"/><path d="M60 30.316H40.344l4.86-6.084L42.396 22 36.6 29.254l-5.796-7.2-2.808 2.178 4.86 6.084H24v28.8h36v-28.8zm-14.4 25.2h-18v-21.6h18v21.6zm9-7.2H51v-3.6h3.6v3.6zm0-7.2H51v-3.6h3.6v3.6z" fill="#fff"/><defs><linearGradient id="A" x1="41" y1="21.5" x2="41" y2="101.5" gradientUnits="userSpaceOnUse"><stop stop-opacity="0"/><stop offset="1"/></linearGradient></defs></svg>
