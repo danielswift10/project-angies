@@ -4,7 +4,8 @@ import styles from "../../style";
 
 const GetStarted = () => {
   return (
-    <div className={`${styles.boxWidth}  my-10 lg:my-[150px] ss:px-6 ${styles.padding}`}>
+    <div className="bg-secondary">
+      <div className={`${styles.boxWidth}  my-10 lg:my-[150px] ss:px-6 ${styles.padding}`}>
       <div className={`h-[535px] sm:h-[550px]  ${styles.flexCenter} started bg-purple rounded-[34px] `}>
       <div className="text-center px-5">
         <h1 className={`${styles.heading1} sm:leading-[58px] mb-3 ss:mb-3 xs:w-[389px] sm:text-[60px] ss:text-[50px] text-white  mx-auto`}>Let’s get you started today</h1>
@@ -34,6 +35,7 @@ const GetStarted = () => {
         </div>
       </div>
       </div>
+    </div>
     </div>
   );
 };

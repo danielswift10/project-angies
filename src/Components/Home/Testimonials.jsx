@@ -3,7 +3,7 @@ import styles, { layout } from "../../style";
 
 const Testimonials = () => {
   return (
-    <div className="py-[70px] my-10 ">
+    <div className="py-[70px] my-10 bg-white">
       <div
         className={`${styles.boxWidth} flex-col   ${styles.flexCenter} ss:px-6 ${styles.padding} gap-10`}
       >
