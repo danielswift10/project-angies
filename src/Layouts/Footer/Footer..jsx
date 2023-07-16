@@ -6,7 +6,7 @@ import { Button } from "../../Utils";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary">
+    <footer className="bg-white">
       <div className={`${styles.boxWidth} ss:px-6 py-0 md:py-[100px]  sm:px-14 ${styles.padding}`}>
         <div className="footer-loog mb-7 md:mb-8">
           <img src={logo} alt="" />
