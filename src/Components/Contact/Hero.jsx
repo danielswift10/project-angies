@@ -16,7 +16,7 @@ const Hero = () => {
               <span className="text-purple relative border-b border-b-pink border-b-4 ">
                 Contact
               </span>{" "}
-              <span>us us to start your polyglot journey</span>
+              <span>us to start your polyglot journey</span>
             </h1>
             <p
               className={`mb-6 ${styles.paragraph} text-[18px] md:w-[] text-center xs:w-[420px] ss:w-[500px] lg:w-[550px] xl:w-[628px] text-veryDimBlue`}

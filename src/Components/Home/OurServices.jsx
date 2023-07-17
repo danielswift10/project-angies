@@ -3,7 +3,7 @@ import styles from "../../style";
 
 const OurServices = () => {
     return ( 
-        <div className="bg-white py-[100px]">
+        <div className="bg-secondary py-[100px]">
             <div className={`${styles.boxWidth} ${styles.padding}`}>
             <div className="heading text-center mb-12 sm:mb-20">
                 <h4 className={`${styles.heading4} mb-5 text-pink`}>Our Services</h4>
