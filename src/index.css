@@ -47,6 +47,12 @@ body {
   background-image: url("./Assets/images/team2.jpg");
 }
 
+@media screen and (min-width: 960px) {
+  .team2{
+    border-top-right-radius: 16px;
+  }
+}
+
 .team3 {
   background-image: url("./Assets/images/team3.png");
 }

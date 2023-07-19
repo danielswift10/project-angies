@@ -14,26 +14,33 @@ const Team = () => {
           >
             Meet the team
           </h2>
-          <div className="flex flex-col  items-center justify-center border w-[340px] ">
-            <div className="flex flex-col md:flex-row w-full ">
-                <div className=" team1 h-[425px] w-full` ">
-                {/* <img src={team1} alt=""  className={` ${styles.image} pic w-[100%] `}/> */}
-                </div>
-                <div className=" team2 h-[425px] w-full">
-                {/* <img src={team2} alt="" className={`${styles.image} w-[100%]`} /> */}
-                </div>
+          <div className="flex flex-col  w-[] ">
+            <div className="flex flex-col rounded-t-lg md:flex-row w-full ">
+              <div className={` xs:h-[320px]  w-full`}>
+                <img
+                  src={team1}
+                  alt=""
+                  className={` w-[100%]`}
+                />
+              </div>
+              <div className="  w-full h-[353.05px] team2  ">
+                {/* <img src={team2} alt="" className="w-[100%] " /> */}
+              </div>
             </div>
-            <div className="flex flex-col md:flex-row team4">
-                <div className={`team3 h-[425px] w-full`}>
-                {/* <img src={team3} alt="" className={`${styles.image} w-[100%]`} /> */}
-                </div>
-                <div className="  team4 h-[425px] w-full ">
-                {/* <img src={team4} alt="" className="w-[100%]"/> */}
-                </div>
+            <div className="flex flex-col md:flex-row w-full ">
+              <div className={` xs:h-[320px]  w-full`}>
+                <img
+                  src={team3}
+                  alt=""
+                  className={` w-[100%]`}
+                />
+              </div>
+              <div className="  h-full w-full ">
+                <img src={team4} alt="" className="w-[100%]" />
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
