@@ -41,17 +41,14 @@ body {
 
 .team1 {
   background-image: url("./Assets/images/team1.png");
+  border-radius: 24px 24px 0 0 ;
 }
 
 .team2 {
   background-image: url("./Assets/images/team2.jpg");
 }
 
-@media screen and (min-width: 960px) {
-  .team2{
-    border-top-right-radius: 16px;
-  }
-}
+
 
 .team3 {
   background-image: url("./Assets/images/team3.png");
@@ -59,6 +56,26 @@ body {
 
 .team4 {
   background-image: url("./Assets/images/team4.png");
+  border-radius: 0 0 24px 24px;
+}
+
+@media screen and (min-width: 620px) {
+  .team1{
+    border-radius: 24px 0 0 0;
+  }
+  
+  .team2{
+    border-radius: 0 24px 0 0;
+  }
+
+  .team4{
+    border-radius: 0 0 24px 0;
+  }
+
+  .team3{
+    border-radius: 0 0 0 24px;
+  }
+
 }
 
 .started, .team1, .team2, .team3, .team4, .blog-2, .blog-3 {

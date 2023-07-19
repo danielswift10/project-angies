@@ -17,7 +17,7 @@ const Footer = () => {
             <ul>
               {FooterLinks.map((item, index) => (
                 <>
-                  <li className={`${styles.textLink} leading-[48px]`}>
+                  <li className={`${styles.textLink} hover:underline leading-[48px]`}>
                     <NavLink to={`${item.to}`} className="">
                       {item.text}
                     </NavLink>

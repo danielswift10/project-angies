@@ -2,7 +2,7 @@ import styles, { layout } from "../../style";
 
 const FunFact = () => {
   return (
-    <div className="bg-purple py-20">
+    <div className="bg-purple py-20 md:pb-28">
       <div
         className={`${styles.boxWidth} ${styles.flexCenter} ss:px-0  ss:w-[600px] lg:w-[1120px] xlg:w-[1200px] xl:w-[1280px] lg:px-0  md:w-[920px] md:px-0 ${styles.padding} `}
       >
