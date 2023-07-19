@@ -5,7 +5,7 @@ const Team = () => {
   return (
     <div>
       <div
-        className={`${styles.boxWidth} ${styles.flexBetween} hidden ss:px-0 ss:w-[600px] lg:w-[1070px] xlg:w-[1150px] xl:w-[1280px] lg:px-0  md:w-[970px] md:px-0 ${styles.padding} gap-10 ${layout.section1}`}
+        className={`${styles.boxWidth} ${styles.flexBetween}  ss:px-0 ss:w-[600px] lg:w-[1070px] xlg:w-[1150px] xl:w-[1280px] lg:px-0  md:w-[970px] md:px-0 ${styles.padding} gap-10 ${layout.section1}`}
       >
         <div className="header mx-auto text-center">
           <h4 className={`${styles.heading4} mb-2 text-pink `}>Our People</h4>

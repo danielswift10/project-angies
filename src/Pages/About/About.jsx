@@ -13,7 +13,6 @@ const About = (props) => {
       <FunFact/>
       <Skilled/>
       <Team/>
-      
     </div>
   );
 };
