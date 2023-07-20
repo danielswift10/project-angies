@@ -3,7 +3,7 @@ const styles  = {
 
     heading1: "font-changa font-normal w-full xl:text-[79px] lg:text-[70px] text-[44px] leading-[50px] tracking-[-1.32px] xl:tracking-[-2.37px]  lg:leading-[70px] xl:leading-[80px] md:w-[400px] lg:w-[490px] xl:w-[519px]  ",
     heading2: "font-changa font-normal w-full font-normal sm:text-[58px] md:text-[60px]  text-black lg:text-[72px] lg:leading-[74px] xl:tracking-[-2.16px] ",
-    heading3: "",
+    heading3: "font-changa font-normal w-full font-normal sm:text-[58px] text-black xl:tracking-[-2.16px] ",
     heading4: "font-pt font-bold leading-[32px] md:text-[20px] text-[16px] sm:text-[18px] ",
 
     paragraph: "font-pt font-normal text-[16px] leading-[28px] lg:text-[18px] lg:leading-[28px] xl:text-[20px] xl:leading-[32px]",

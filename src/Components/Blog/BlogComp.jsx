@@ -22,7 +22,7 @@ const BlogComp = () => {
          {
             BlogPost.map((blog, index) => (
                 <div
-                className={`${styles.flexBetween} mb-10  flex-col gap-[23px] md:gap-[30px] lg:gap-[48px]  ${layout.section1} xlg:w-[1200px] xl:w-[1280px]`}
+                className={`${styles.flexBetween} mb-10  flex-col gap-[23px] md:gap-[50px] lg:gap-[48px]  ${layout.section1} xlg:w-[1200px] xl:w-[1280px]`}
               >
                 <NavLink to={blog.to} className="image  ">
                   <div className="relative rounded-[34px] overflow-hidden">
@@ -37,7 +37,7 @@ const BlogComp = () => {
                       {blog.title}
                     </span>
                     <span
-                      className={`${styles.heading2} lg:leading-[45px] sm:text-[48px] md:text-[40px] md:leading-[38px]  text-black lg:text-[44px] lg:leading-[44px] xlg:text-[54px] xlg:leading-[54px] block text-[32px] ss:w-[600px] md:w-[420px] lg:w-[480px] xlg:w-[580px] ss:text-[48px] mb-2 text-black leading-[36px] ss:leading-[48px] sm:leading-[58px] tracking-[-1.32px] `}
+                      className={`${styles.heading3} lg:leading-[45px] sm:text-[48px] md:text-[40px] md:leading-[43px]  text-black lg:text-[48px] xlg:text-[54px] xlg:leading-[54px] block text-[32px] ss:w-[600px] md:w-[420px] lg:w-[480px] xlg:w-[580px] ss:text-[48px] mb-2 text-black leading-[36px] ss:leading-[48px] sm:leading-[58px] tracking-[-1.32px] `}
                     >
                       {blog.heading}
                     </span>
