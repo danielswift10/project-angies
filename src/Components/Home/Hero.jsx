@@ -10,11 +10,11 @@ const Hero = () => {
         className={`${styles.boxWidth}  mt-[25px] pb-28 md:pb-2 md:gap-5 md:pt-[60px] pt-16 ss:pt-[70px] sm:pt-[50px] ${styles.padding}`}
       >
         <div
-          className={`${layout.section} xlg:w-[1150px] xl:w-full xlg:justify-between mx-auto gap-10 md:gap-0 flex justify-center items-center md:justify-center xl:justify-between`}
+          className={`${layout.section}  xlg:w-[1150px] xl:w-full xlg:justify-between mx-auto gap-10 md:gap-0 flex justify-center items-center md:justify-center xl:justify-between`}
         >
           <div className="hero-content ">
             <h1
-              className={`${styles.heading1} md:leading-[58px]  text-black xs:text-[50px] ss:text-[55px] mb-3 xs:leading-[54px] xs:w-[450px] ss:w-[580px] border lg:w-[5S0px] sm:w-[500px] md:mb-[10px] `}
+              className={`${styles.heading1} md:leading-[58px]  text-black xs:text-[50px] ss:text-[55px] mb-3 xs:leading-[54px] xs:w-[450px] ss:w-[580px] lg:w-[5S0px] sm:w-[650px] md:mb-[10px] `}
             >
               Speak & write <span className="text-purple relative border-b border-b-pink border-b-4 ">French 
               </span> <span>with our
