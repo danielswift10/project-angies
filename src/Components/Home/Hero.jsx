@@ -5,7 +5,7 @@ import styles, { layout } from "../../style";
 
 const Hero = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white sm:pb-[150px] ">
       <div
         className={`${styles.boxWidth}  mt-[25px] pb-28 md:pb-2 md:gap-5 md:pt-[60px] pt-16 ss:pt-[70px] sm:pt-[50px] ${styles.padding}`}
       >
