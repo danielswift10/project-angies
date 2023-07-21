@@ -32,7 +32,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 55) {
+      if (scrollTop >= 40) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -41,18 +41,6 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   });
-
-  // useEffect(() => {
-  //   const handleClickLink = (event) => {
-  //     if (ref.current && !ref.current.contains(event.target)) {
-  //       setToggle(false);
-  //     }
-  //   };
-  //   document.addEventListener("click", handleClickLink, true);
-  //   return () => {
-  //     document.removeEventListener("click", handleClickLink, true);
-  //   };
-  // });
 
   useEffect(() => {
     window.scrollTo(0, 0);
