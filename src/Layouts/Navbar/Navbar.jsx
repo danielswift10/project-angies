@@ -211,29 +211,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <div className="flex items-end  py-[10px] flex-col  justify-end ">
-<ul className="flex pe-20 mt-10 flex-col gap-10">
-  {NavLinks.map((nav, index) => (
-    <li
-      key={nav.id}
-      className={`cursor-pointer font-normal font-poppins text-[16px] w-full ${
-        active === nav.title
-          ? "text-white pl-[20px] border-l-[3px] pt-[] border-l-orange pointer-events-none "
-          : "text-gray pl-[20px]  hover:text-white"
-      }
-         ${index === NavLinks.length - 1 ? "mr-0" : "mr-10"} `}
-      onClick={() => {
-        setActive(nav.title);
-        setToggle(false);
-      }}
-    >
-      <NavLink to={`${nav.to}`} className="">
-        {nav.title}
-      </NavLink>
-    </li>
-  ))}
-</ul>
-</div> */
-}
